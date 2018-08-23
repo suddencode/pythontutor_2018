@@ -1,2 +1,5 @@
-n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, = int(input()), int(input()), int(input()), int(input()), int(input()), int(input()), int(input()), int(input()), int(input()), int(input())
-
+b = 0
+for i in range(10):
+	a = int(input())
+	b += a
+print(b)
